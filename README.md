@@ -12,18 +12,20 @@ Hello, Captain!
 Need to have Docker installed on your machine.
 
 ## 📁 Project Structure
-
+```
 docker-greet/
 │── Dockerfile
 │── README.md
-
+```
 ---
 
 ## 🐳 Dockerfile Explanation
 
 **dockerfile**
+```bash
 FROM alpine:latest
 CMD ["echo", "Hello, Captain!"]
+```
 
 - FROM alpine:latest → lightweight base OS
 - CMD → runs command when container starts
